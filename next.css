@@ -1,0 +1,44 @@
+html, body {
+    margin: 0px;
+    overflow: hidden;
+}
+
+body {
+    min-height: 100vh;
+    background-image: url("images/us.png");
+    background-size: cover;
+}
+
+h2 {
+    font-family: poppins;
+    font-weight: bold;
+    color: rgb(226, 43, 192);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+/*.mosaic {
+    margin: 0;
+    width: 100vw;
+    height: 101vh;
+    object-fit: cover;
+}*/
+
+.space {
+    top: 25%;
+    left: 25%;
+    position: absolute;
+    width: 700px;
+    height: 300px;
+    border: 10px solid rgb(226, 43, 192);
+    border-radius: 50px;
+    outline: 5px solid pink;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-left: 10px;
+    padding-right: 10px;
+}
