@@ -12,6 +12,10 @@ var counter = 0;
 yes_button.addEventListener('click', () => {
     if(counter == 0) {
         question.innerHTML = "REALLY?"
+    } else if(counter == 1) {
+        question.innerHTML = "SURE DIHA BA"
+    } else if(counter == 2) {
+        question.innerHTML = "FINAL NA JUD NA?"
     } else {
         question.innerHTML = "Then will you be my <span style = 'font-size: 100px; font-family: valentine;'>valentine</span>?"
         yes_button.innerHTML = "<a style='text-decoration: none; color: white; font-size: 50px' href='./next.html'>Yes</a>"
